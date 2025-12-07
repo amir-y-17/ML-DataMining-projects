@@ -1,6 +1,12 @@
 from src import *
-
+import numpy as np
 
 points = load_data()
 
-distance_matrix = print(euclidean_distance_matrix(points))
+# ========= Euclidean Distance Matrix =========
+euclidean_matrix = euclidean_distance_matrix(points)
+print(euclidean_matrix)
+
+# ========= Mahalanobis Distance Matrix =========
+mahalanobis_matrix = mahalanobis_distance_matrix(points)
+print(mahalanobis_matrix)
