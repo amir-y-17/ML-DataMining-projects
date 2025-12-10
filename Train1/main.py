@@ -10,3 +10,8 @@ print(euclidean_matrix)
 # ========= Mahalanobis Distance Matrix =========
 mahalanobis_matrix = mahalanobis_distance_matrix(points)
 print(mahalanobis_matrix)
+
+
+# ======== Correlation Matrix =========
+correlation_mat = correlation_matrix(points)
+print(correlation_mat)
