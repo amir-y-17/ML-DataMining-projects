@@ -15,3 +15,8 @@ print(mahalanobis_matrix)
 # ======== Correlation Matrix =========
 correlation_mat = correlation_matrix(points)
 print(correlation_mat)
+
+
+# ======== Entropy Matrix =========
+entropy_vals = entropy_all_features(points)
+print(entropy_vals)
